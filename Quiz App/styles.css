@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding:0;
+    background:rgb(0, 0, 0);
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    background: linear-gradient(#cdf5c8, #f8eed4);;
+    margin: 10% 5% 0 5%;
+    border-radius: 20px;
+    height: 60vh;
+    padding: 5%;
+
+}
+
+.answer{
+    border: 2px solid rgb(17, 17, 17);
+    height: 5vh;
+    padding-left: 2%;
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+.answer:hover{
+    border-color: #f09f1d;
+    background-color: #f7cd8f;
+}
+
+button {
+    display: block;
+    margin: 5% auto; 
+    background-color:#c7efba;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 3px solid;
+}
+
+button:hover{
+    background-color:  #f7cd8f;
+}
+
